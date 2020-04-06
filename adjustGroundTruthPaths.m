@@ -1,15 +1,15 @@
 %% Run this script to adjust the paths for all the gTruth Data Objects
-% clc
-% clear
+clc
+clear
 
 
 
 load('gTruthResizedVald.mat');
 
-% your original datasource path
+% original datasource path, do not edit
 oldPathDataSource = fullfile("C:","Sandbox","DLODFX","deepLearningForObjectDetection","RoboSubFootage","valResized");
 
-% new datasource path
+% new datasource path, edit with the appropriate location
 newPathDataSource = fullfile("RoboSubFootage","valResized");
 
 alterPaths = {[oldPathDataSource newPathDataSource]};
@@ -24,8 +24,8 @@ cd ..
 
 load('gTruthResizedTest.mat');
 
-% your original datasource path
-oldPathDataSource = fullfile("C:","Sandbox","DLODFX","deepLearningForObjectDetection","RoboSubFootage","testResized");
+% original datasource path, do not edit
+oldPathDataSource = fullfile("C:","MYWORK","deep-learning-for-object-detection","ObjectDetectionDLFX","RoboSubFootage","testResized");
 % new datasource path
 newPathDataSource = fullfile("RoboSubFootage","testResized");
 
@@ -41,7 +41,7 @@ cd ..
 load('gTruthResizedTrain.mat');
 
 % your original datasource path
-oldPathDataSource = fullfile("C:","Sandbox","DLODFX","deepLearningForObjectDetection","RoboSubFootage","trainResized");
+oldPathDataSource = fullfile("C:","MYWORK","deep-learning-for-object-detection","ObjectDetectionDLFX","RoboSubFootage","trainResized");
 % new datasource path
 newPathDataSource = fullfile("RoboSubFootage","trainResized");
 
