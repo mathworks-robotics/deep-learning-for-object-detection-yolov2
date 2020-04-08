@@ -13,7 +13,7 @@ This repository consists of the code files for the following videos, dataset use
 3. Import Pretrained Deep Learning Networks into MATLAB : https://www.mathworks.com/videos/import-pretrained-deep-learning-networks-into-matlab-1578034627950.html
 4. Deploy YOLOv2 to an NVIDIA Jetson : https://www.mathworks.com/videos/deploy-yolov2-to-an-nvidia-jetson-1578035533852.html
 
-## SetUp
+## Set-Up
 
 1. Clone the repository.
 2. Launch Deeplearningforobjectdetection.prj to set-up the project environment.
