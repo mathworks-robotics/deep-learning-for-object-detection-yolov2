@@ -2,6 +2,8 @@
 
 Copyright 2019-2020 The MathWorks, Inc.
 
+[![View Deep Learning For Object Detection on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/73954-deep-learning-for-object-detection)
+
 ## Introduction
 
 This repository consists of the code files for the following videos, dataset used for this code can be found here : https://drive.google.com/drive/u/1/folders/1bhohhPoZy03ffbM_rl8ZUPSvJ5py8rM- ;
@@ -13,9 +15,10 @@ This repository consists of the code files for the following videos, dataset use
 
 ## SetUp
 
-1. Download all the files and folders from this repository.
-2. Run ***addFilestoPath.m*** to add all folders and files to the current path
-3. Run ***adjustGroundTruthPaths.m*** to change the ground truth data objects' source path if path issues occur
+1. Clone the repository.
+2. Launch Deeplearningforobjectdetection.prj to set-up the project environment.
+3. Download the data from this google drive folder : https://drive.google.com/drive/u/1/folders/1bhohhPoZy03ffbM_rl8ZUPSvJ5py8rM- 
+4. The first time you run this example, edit appropriately and run ***adjustGroundTruthPaths.m*** to adjust the ground truth data objects' source path for your computer. Instructions on the edits needed are in the code file.
 
 ## Folder Structure
 
@@ -24,3 +27,4 @@ This repository consists of the code files for the following videos, dataset use
 
 
 for any questions contact the authors : roboticsarena@mathworks.com
+
