@@ -1,6 +1,6 @@
 # Deep Learning for Object Detection Series
 
-Copyright 2019-2020 The MathWorks, Inc.
+Copyright 2019-2023 The MathWorks, Inc.
 
 [![View Deep Learning For Object Detection on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/73954-deep-learning-for-object-detection)
 
