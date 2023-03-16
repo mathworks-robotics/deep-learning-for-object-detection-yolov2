@@ -17,14 +17,14 @@ This repository consists of the code files for the following videos, dataset use
 
 1. Clone the repository.
 2. Launch Deeplearningforobjectdetection.prj to set-up the project environment.
-3. Download the data from this google drive folder : https://drive.google.com/drive/u/1/folders/1bhohhPoZy03ffbM_rl8ZUPSvJ5py8rM- 
+3. Download the data from this folder : https://drive.google.com/drive/u/1/folders/1bhohhPoZy03ffbM_rl8ZUPSvJ5py8rM- 
 4. The first time you run this example, edit appropriately and run ***adjustGroundTruthPaths.m*** to adjust the ground truth data objects' source path for your computer. Instructions on the edits needed are in the code file.
 
 ## Folder Structure
 
-1. **Codefiles** folder consists of matlab code files for each of the videos
-2. **Utilities** folder consists of .mat files required for uplaoding pre trained content
+1. **Codefiles** folder consists of MATLAB&reg; code files for each of the videos and a sample Simulink&reg; model
+2. **Utilities** folder consists of .MAT files required for uplaoding pre-trained content and helper functions
 
 
-for any questions contact the authors : roboticsarena@mathworks.com
+For any questions contact the authors: roboticsarena@mathworks.com
 

@@ -25,9 +25,12 @@ This folder contains trained ACF object detectors for each of the 4 custom autom
 
 `groundTruthLabelingSessionRoboSubResizedTrain.mat` : Labeled ground truth session for all the data in the trainResized folder to be downloaded from : https://drive.google.com/open?id=1bhohhPoZy03ffbM_rl8ZUPSvJ5py8rM- 
 
+`imageToVideo.m` : Helper function to convert image data to a video that can be used in Simulink
+
 `importedTinyYoloLayers.mat` : tinyYOLO network exported from the deep network designer app after redesigning it according to the new image size and objects
 
 `model.onnx` : tinyYOLOV2 onnx model downloaded from onnx model zoo : https://github.com/onnx/models 
+
 
 
  

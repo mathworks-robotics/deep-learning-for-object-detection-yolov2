@@ -5,7 +5,7 @@ Copyright 2019 The MathWorks, Inc.
 
 ##### Pre-Requisites:
 1. Add appropriate folders and files in this repository to the path, run `addFilesToPath.m` to do this
-2. Dowload the data set from this shared google drive : https://drive.google.com/open?id=1bhohhPoZy03ffbM_rl8ZUPSvJ5py8rM-
+2. Download the data set from this shared google drive : https://drive.google.com/open?id=1bhohhPoZy03ffbM_rl8ZUPSvJ5py8rM-
 
 ##### About
 This code file is discussed in the video - Data Pre-Processing for Deep Leanring 
@@ -59,3 +59,11 @@ This function will be converted to CUDA code and deployed to the Jetson and it g
 ##### About
 This script computes anchor boxes used in designing the networks in this example. 
 Modify appropriates and run if anchor boxes need to be recomputed for a different data set or differnet sized images.
+
+### roboSubDetectWithObjectDetectorBlock.slx
+
+##### Pre-Requisites:
+1. Run 'imageToVideo.m' in the 'Utilities' folder to create a video from the testing dataset
+
+##### About
+This simulink file uses the pretrained object detector in 'detectorYoloV2.mat' to make and display predictions on the test data.
