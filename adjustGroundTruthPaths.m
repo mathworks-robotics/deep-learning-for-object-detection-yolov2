@@ -25,7 +25,7 @@ cd ..
 load('gTruthResizedTest.mat');
 
 % original datasource path, do not edit
-oldPathDataSource = convertCharsToStrings(gTruthResizedTest.DataSource);
+oldPathDataSource = "C:\Users\abshanka\Documents\Matlab\dl-objectDetection\dataset\testResized";
 % new datasource path
 newPathDataSource = "C:\Users\abshanka\Documents\Matlab\dl-objectDetection\dataset\testResized";
 alterPaths = {[oldPathDataSource newPathDataSource]};
@@ -40,7 +40,7 @@ cd ..
 load('gTruthResizedTrain.mat');
 
 % your original datasource path
-oldPathDataSource = convertCharsToStrings(gTruthResizedVal.DataSource);
+oldPathDataSource = convertCharsToStrings(gTruthResizedTrain.DataSource);
 % new datasource path
 newPathDataSource = "C:\Users\abshanka\Documents\Matlab\dl-objectDetection\dataset\trainResized";
 
