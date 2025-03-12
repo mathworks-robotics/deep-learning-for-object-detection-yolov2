@@ -1,8 +1,7 @@
 summary(trainingData);
 
 % Combine all the ground truth boxes into one array.
-allBoxes = vertcat(trainingData.navGate{:},trainingData.greenBuoy{:},trainingData.redBuoy{:},trainingData.yellowBuoy{:});
-
+allBoxes = vertcat(gTruthResizedTrain.LabelData.navGate{:},gTruthResizedTrain.LabelData.greenBuoy{:},gTruthResizedTrain.LabelData.redBuoy{:},gTruthResizedTrain.LabelData.yellowBuoy{:});
 % Plot the box area versus box aspect ratio.
 aspectRatio = allBoxes(:,3) ./ allBoxes(:,4);
 area = prod(allBoxes(:,3:4),2);

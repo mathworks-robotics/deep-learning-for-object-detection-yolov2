@@ -7,10 +7,10 @@ clear
 load('gTruthResizedVald.mat');
 
 % original datasource path, do not edit
-oldPathDataSource = fullfile("C:","Sandbox","DLODFX","deepLearningForObjectDetection","RoboSubFootage","valResized");
+oldPathDataSource = convertCharsToStrings(gTruthResizedVal.DataSource);
 
 % new datasource path, edit with the appropriate location
-newPathDataSource = fullfile("RoboSubFootage","valResized");
+newPathDataSource = "C:\Users\abshanka\Documents\Matlab\dl-objectDetection\dataset\valResized";
 
 alterPaths = {[oldPathDataSource newPathDataSource]};
 unresolvedPaths = changeFilePaths(gTruthResizedVal,alterPaths);
@@ -25,10 +25,9 @@ cd ..
 load('gTruthResizedTest.mat');
 
 % original datasource path, do not edit
-oldPathDataSource = fullfile("C:","MYWORK","deep-learning-for-object-detection","ObjectDetectionDLFX","RoboSubFootage","testResized");
+oldPathDataSource = convertCharsToStrings(gTruthResizedTest.DataSource);
 % new datasource path
-newPathDataSource = fullfile("RoboSubFootage","testResized");
-
+newPathDataSource = "C:\Users\abshanka\Documents\Matlab\dl-objectDetection\dataset\testResized";
 alterPaths = {[oldPathDataSource newPathDataSource]};
 unresolvedPaths = changeFilePaths(gTruthResizedTest,alterPaths);
 
@@ -41,9 +40,9 @@ cd ..
 load('gTruthResizedTrain.mat');
 
 % your original datasource path
-oldPathDataSource = fullfile("C:","MYWORK","deep-learning-for-object-detection","ObjectDetectionDLFX","RoboSubFootage","trainResized");
+oldPathDataSource = convertCharsToStrings(gTruthResizedVal.DataSource);
 % new datasource path
-newPathDataSource = fullfile("RoboSubFootage","trainResized");
+newPathDataSource = "C:\Users\abshanka\Documents\Matlab\dl-objectDetection\dataset\trainResized";
 
 alterPaths = {[oldPathDataSource newPathDataSource]};
 unresolvedPaths = changeFilePaths(gTruthResizedTrain,alterPaths);
